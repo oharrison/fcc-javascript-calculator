@@ -60,10 +60,15 @@ body {
 
 .calc-button:hover {
   cursor: pointer;
+  background-color: #616161;
 }
 
 .operator {
   background-color: #5c6bc0;
+}
+
+.operator:hover {
+  background-color: #7986CB;
 }
 
 #footer {
