@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title>JavaScript Calculator</title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto"/>
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"
+      integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="app.css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <div id="calculator">
+        <div id="display">
+          <input type="text" placeholder="0" maxlength="24" readonly>
+        </div>
+        <div id="number-pad">
+          <div class="row calc-row">
+            <div class="col-xs-3 calc-button back">&#8617;</div>
+            <div class="col-xs-3 calc-button clear-entry">CE</div>
+            <div class="col-xs-3 calc-button del">DEL</div>
+            <div class="col-xs-3 calc-button operator symbol">%</div>
+          </div>
+          <div class="row calc-row">
+            <div class="col-xs-3 calc-button symbol">7</div>
+            <div class="col-xs-3 calc-button symbol">8</div>
+            <div class="col-xs-3 calc-button symbol">9</div>
+            <div class="col-xs-3 calc-button operator symbol">&divide;</div>
+          </div>
+          <div class="row calc-row">
+            <div class="col-xs-3 calc-button number symbol">4</div>
+            <div class="col-xs-3 calc-button number symbol">5</div>
+            <div class="col-xs-3 calc-button number symbol">6</div>
+            <div class="col-xs-3 calc-button operator symbol">&times;</div>
+          </div>
+          <div class="row calc-row">
+            <div class="col-xs-3 calc-button number symbol">1</div>
+            <div class="col-xs-3 calc-button number symbol">2</div>
+            <div class="col-xs-3 calc-button number symbol">3</div>
+            <div class="col-xs-3 calc-button operator symbol">-</div>
+          </div>
+          <div class="row calc-row">
+            <div class="col-xs-3 calc-button number symbol">0</div>
+            <div class="col-xs-3 calc-button symbol">.</div>
+            <div class="col-xs-3 calc-button equals">=</div>
+            <div class="col-xs-3 calc-button operator symbol">+</div>
+          </div>
+        </div>
+      </div>
+      <div id="footer">
+        <p>
+          <i class="fa fa-twitter fa-fw" aria-hidden="true"></i>
+          <a href="https://twitter.com/onelharrison" target="_blank" rel="noopener">@onelharrison</a> |
+          <i class="fa fa-github fa-fw" aria-hidden="true"></i>
+          <a href="https://github.com/oharrison" target="_blank" rel="noopener">oharrison</a> |
+          <i class="fa fa-linkedin fa-fw" aria-hidden="true"></i>
+          <a href="https://linkedin.com/in/onelharrison" target="_blank" rel="noopener">onelharrison</a>
+        </p>
+    </div>
+    </div>
+    <script type="text/javascript" src="vendor/jquery/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="vendor/bootstrap/bootstrap.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+  </body>
+</html>

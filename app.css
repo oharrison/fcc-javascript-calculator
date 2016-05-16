@@ -1,0 +1,94 @@
+html {
+  postition: relative;
+  min-height: 100%;
+}
+
+body {
+  font-family: "Roboto", sans-serif !important;
+  background-color: #fafafa;
+  margin: 0 0 50px;
+}
+
+#calculator {
+  width: 350px;
+  height: 500px;
+  margin: 30px auto;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.20), 0 6px 6px rgba(0,0,0,0.24);
+}
+
+#display {
+  width: 100%;
+  height: 35%;
+  background-color: #ffffff;
+  padding: 35% 12px 12px;
+}
+
+#display input {
+  width: 100%;
+  height: 100%;
+  background-color: #ffffff;
+  font-size: 24px;
+  text-align: right;
+  border: none;
+}
+
+#number-pad {
+  width: 100%;
+  height: 65%;
+  font-size: 24px;
+  color: #ffffff;
+  background-color: black;
+}
+
+.calc-row {
+  width: 100%;
+  height: 20%;
+  margin: 0;
+  padding: 0;
+}
+
+.calc-button {
+  width: 25%;
+  height: 100%;
+  line-height: 100%;
+  margin: 0;
+  padding: 1em;
+  text-align: center;
+  vertical-align: middle;
+  background-color: #424242;
+}
+
+.calc-button:hover {
+  cursor: pointer;
+}
+
+.operator {
+  background-color: #5c6bc0;
+}
+
+#footer {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  color: #000;
+  font-size: 14pt;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+#footer a {
+  margin-left: 0;
+}
+
+#footer a:link,
+#footer a:active,
+#footer a:visited,
+#footer a:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+#footer a:hover {
+  text-decoration: underline;
+}
